@@ -28,12 +28,16 @@ Right-click the file and choose Run as administrator (if needed)..bat
 The script will start opening the YouTube link and create a file on your desktop.log.txt
 
 📁 Example Output (log.txt)
+using System;
 
-csharp
-Kopyala
-Düzenle
-[06/07/2025 19:03:12] Opened: https://youtube.com/yourvideo
-[06/07/2025 19:03:13] Opened: https://youtube.com/yourvideo
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello, world!");
+    }
+}
+
 ...
 ⚠️ Warning
 This script is for educational and testing purposes only. Repeatedly opening a YouTube video with the intent to manipulate views may violate YouTube’s terms of service and can result in penalties, including IP bans or account suspension.
